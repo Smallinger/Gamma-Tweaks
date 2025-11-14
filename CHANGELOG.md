@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.0.0] - 2025-11-14
+## [1.21.10-1.0.0] - 2025-11-14
 
 ### Initial Release
 
@@ -44,10 +44,10 @@ This is the first official release of Gamma Tweaks for NeoForge 1.21.10!
 - **Compatible with**: Sodium, Lithium, Iris Shaders (with automatic detection)
 
 #### Credits
-- Original Fabric mod: [Gamma Utils](https://github.com/sjouwer/gamma-utils) by Sjouwer
-- Status effect icons: Licensed under GNU LGPL v3.0 from Gamma Utils
-- Port and NeoForge adaptation: Smallinger
+- Inspired by Fabric mod: [Gamma Utils](https://github.com/sjouwer/gamma-utils) by Sjouwer
+- Status effect icons: Licensed under GNU LGPL v3.0 from [Gamma Utils](https://github.com/sjouwer/gamma-utils)
+- NeoForge Adaptation: [Smallinger](https://github.com/Smallinger/Gamma-Tweaks)
 
 ---
 
-[1.0.0]: https://github.com/Smallinger/Gamma-Tweaks/releases/tag/v1.0.0
+[1.21.10-1.0.0]: https://github.com/Smallinger/Gamma-Tweaks/releases/tag/v1.21.10-1.0.0
