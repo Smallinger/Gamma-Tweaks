@@ -1,0 +1,20 @@
+{
+  "required": true,
+  "package": "com.github.smallinger.gammatweaks.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "refmap": "gammatweaks.refmap.json",
+  "client": [
+    "MixinOptions",
+    "MixinOptionInstance",
+    "MixinLightmapTextureManager",
+    "MixinFogRenderer",
+    "MixinGameRenderer",
+    "MixinGui",
+    "MixinMinecraft",
+    "MixinMobEffectUtil",
+    "MixinClientPacketListener"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

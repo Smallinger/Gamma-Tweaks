@@ -1,0 +1,251 @@
+{
+  "key.categories.gammatweaks": "Gamma Tweaks",
+  
+  "key.gammatweaks.gammaToggle": "Toggle Gamma",
+  "key.gammatweaks.increaseGamma": "Increase Gamma",
+  "key.gammatweaks.decreaseGamma": "Decrease Gamma",
+  "key.gammatweaks.maxGamma": "Set Maximum Gamma",
+  "key.gammatweaks.minGamma": "Set Minimum Gamma",
+  
+  "key.gammatweaks.nightVisionToggle": "Toggle Night Vision",
+  "key.gammatweaks.increaseNightVision": "Increase Night Vision",
+  "key.gammatweaks.decreaseNightVision": "Decrease Night Vision",
+  
+  "gammatweaks.configuration.gamma": "Gamma Settings",
+  "gammatweaks.configuration.nightVision": "Night Vision Settings",
+  "gammatweaks.configuration.other": "Other Settings",
+  
+  "gammatweaks.configuration.defaultGamma": "Default Gamma Percentage",
+  "gammatweaks.configuration.defaultGamma.tooltip": "Gamma percentage for when Gamma is toggled off",
+  
+  "gammatweaks.configuration.toggledGamma": "Toggled Gamma Percentage",
+  "gammatweaks.configuration.toggledGamma.tooltip": "Gamma percentage for when Gamma is toggled on",
+  
+  "gammatweaks.configuration.updateToggle": "Update Toggle Value",
+  "gammatweaks.configuration.updateToggle.tooltip": "Enabling this will make the toggle value remember the last non default value you've used",
+  
+  "gammatweaks.configuration.gammaStep": "Gamma Percentage Step",
+  "gammatweaks.configuration.gammaStep.tooltip": "Gamma percentage change for every increase or decrease",
+  
+  "gammatweaks.configuration.showGammaStatusEffect": "Show Status Effect",
+  "gammatweaks.configuration.showGammaStatusEffect.tooltip": "Show a status effect when the Gamma percentage is outside normal range",
+  
+  "gammatweaks.configuration.resetGammaOnClose": "Reset On Close",
+  "gammatweaks.configuration.resetGammaOnClose.tooltip": "Reset the Gamma value to default when Minecraft closes",
+  
+  "gammatweaks.configuration.gamma.transition": "Transition Settings",
+  
+  "gammatweaks.configuration.smoothGammaTransition": "Enable Smooth Transition",
+  "gammatweaks.configuration.smoothGammaTransition.tooltip": "Make the transition of toggling Gamma smoother",
+  
+  "gammatweaks.configuration.gammaTransitionSpeed": "Transition Speed",
+  "gammatweaks.configuration.gammaTransitionSpeed.tooltip": "Speed in percentage per second when Smooth Transition is enabled",
+  
+  "gammatweaks.configuration.gamma.dynamic": "Dynamic Gamma Settings",
+  
+  "gammatweaks.configuration.dynamicGammaEnabled": "Enable Dynamic Gamma",
+  "gammatweaks.configuration.dynamicGammaEnabled.tooltip": "Makes Gamma dynamically adjust itself depending on the light level around the player",
+  
+  "gammatweaks.configuration.minDynamicGamma": "Minimum Gamma Strength",
+  "gammatweaks.configuration.minDynamicGamma.tooltip": "Gamma strength at light level 15",
+  
+  "gammatweaks.configuration.maxDynamicGamma": "Maximum Gamma Strength",
+  "gammatweaks.configuration.maxDynamicGamma.tooltip": "Gamma strength at light level 0",
+  
+  "gammatweaks.configuration.dynamicGammaTransitionSpeed": "Dynamic Transition Speed",
+  "gammatweaks.configuration.dynamicGammaTransitionSpeed.tooltip": "Dynamic transition speed in percentage per second when the light level changes",
+  
+  "gammatweaks.configuration.gammaAveragingLightRange": "Averaging Light Level Range",
+  "gammatweaks.configuration.gammaAveragingLightRange.tooltip": "Range in blocks around the player to average the light level of",
+  
+  "gammatweaks.configuration.gammaSkyBrightnessOverride": "Sky Brightness Override",
+  "gammatweaks.configuration.gammaSkyBrightnessOverride.tooltip": "Increasing this makes it possible to have a lower dynamic Gamma when under skylight",
+  
+  "gammatweaks.configuration.gamma.dimensionPreference": "Dimension Preferences",
+  
+  "gammatweaks.configuration.gammaDimensionPreferenceEnabled": "Enable Dimension Preferences",
+  "gammatweaks.configuration.gammaDimensionPreferenceEnabled.tooltip": "Automatically apply different gamma values based on the current dimension",
+  
+  "gammatweaks.configuration.gammaOverworldPreference": "Overworld Gamma",
+  "gammatweaks.configuration.gammaOverworldPreference.tooltip": "Gamma percentage to apply when entering the Overworld",
+  
+  "gammatweaks.configuration.gammaNetherPreference": "Nether Gamma",
+  "gammatweaks.configuration.gammaNetherPreference.tooltip": "Gamma percentage to apply when entering the Nether",
+  
+  "gammatweaks.configuration.gammaEndPreference": "End Gamma",
+  "gammatweaks.configuration.gammaEndPreference.tooltip": "Gamma percentage to apply when entering the End",
+  
+  "gammatweaks.configuration.gamma.limiter": "Limiter Settings",
+  
+  "gammatweaks.configuration.gammaLimitCheck": "Enable Limiter",
+  "gammatweaks.configuration.gammaLimitCheck.tooltip": "Should the mod enforce the minimum and maximum Gamma limits",
+  
+  "gammatweaks.configuration.minGamma": "Minimum Gamma Limit",
+  "gammatweaks.configuration.minGamma.tooltip": "Minimum Gamma percentage the mod will allow if the Limit Check is enabled",
+  
+  "gammatweaks.configuration.maxGamma": "Maximum Gamma Limit",
+  "gammatweaks.configuration.maxGamma.tooltip": "Maximum Gamma percentage the mod will allow if the Limit Check is enabled",
+  
+  "gammatweaks.configuration.gamma.hudMessage": "HUD Message Settings",
+  
+  "gammatweaks.configuration.showGammaHudMessage": "Show HUD Message",
+  "gammatweaks.configuration.showGammaHudMessage.tooltip": "Show a message containing the new Gamma percentage when it has changed",
+  
+  "gammatweaks.configuration.gammaHudDefaultColor": "HUD Color: 0 - 100%",
+  "gammatweaks.configuration.gammaHudDefaultColor.tooltip": "Color for HUD messages when Gamma is between 0% and 100%",
+  
+  "gammatweaks.configuration.gammaHudPositiveColor": "HUD Color: > 100%",
+  "gammatweaks.configuration.gammaHudPositiveColor.tooltip": "Color for HUD messages when Gamma is above 100%",
+  
+  "gammatweaks.configuration.gammaHudNegativeColor": "HUD Color: < 0%",
+  "gammatweaks.configuration.gammaHudNegativeColor.tooltip": "Color for HUD messages when Gamma is below 0%",
+  
+  "gammatweaks.configuration.toggledNightVision": "Toggled Night Vision Percentage",
+  "gammatweaks.configuration.toggledNightVision.tooltip": "Night Vision percentage for when Night Vision is toggled on",
+  
+  "gammatweaks.configuration.updateNvToggle": "Update Toggle Value",
+  "gammatweaks.configuration.updateNvToggle.tooltip": "Enabling this will make the toggle value remember the last non zero value you've used",
+  
+  "gammatweaks.configuration.nightVisionStep": "Night Vision Percentage Step",
+  "gammatweaks.configuration.nightVisionStep.tooltip": "Night Vision percentage change for every increase or decrease",
+  
+  "gammatweaks.configuration.brightenFogColor": "Brighten Fog Color",
+  "gammatweaks.configuration.brightenFogColor.tooltip": "When enabled Night Vision will also brighten the fog color, just like vanilla Night Vision",
+  
+  "gammatweaks.configuration.showNvStatusEffect": "Show Status Effect",
+  "gammatweaks.configuration.showNvStatusEffect.tooltip": "Show the Night Vision HUD and inventory icon just like a normal status effect",
+  
+  "gammatweaks.configuration.resetNvOnClose": "Reset On Close",
+  "gammatweaks.configuration.resetNvOnClose.tooltip": "Disable Night Vision when Minecraft closes",
+  
+  "gammatweaks.configuration.nightVision.transition": "Transition Settings",
+  
+  "gammatweaks.configuration.smoothNvTransition": "Enable Smooth Transition",
+  "gammatweaks.configuration.smoothNvTransition.tooltip": "Make the transition of toggling Night Vision smoother",
+  
+  "gammatweaks.configuration.nvTransitionSpeed": "Transition Speed",
+  "gammatweaks.configuration.nvTransitionSpeed.tooltip": "Speed in percentage per second when Smooth Transition is enabled",
+  
+  "gammatweaks.configuration.nightVision.dynamic": "Dynamic Night Vision Settings",
+  
+  "gammatweaks.configuration.dynamicNvEnabled": "Enable Dynamic Night Vision",
+  "gammatweaks.configuration.dynamicNvEnabled.tooltip": "Makes Night Vision dynamically adjust itself depending on the light level around the player",
+  
+  "gammatweaks.configuration.minDynamicNv": "Minimum Night Vision Strength",
+  "gammatweaks.configuration.minDynamicNv.tooltip": "Night Vision strength at light level 15",
+  
+  "gammatweaks.configuration.maxDynamicNv": "Maximum Night Vision Strength",
+  "gammatweaks.configuration.maxDynamicNv.tooltip": "Night Vision strength at light level 0",
+  
+  "gammatweaks.configuration.dynamicNvTransitionSpeed": "Dynamic Transition Speed",
+  "gammatweaks.configuration.dynamicNvTransitionSpeed.tooltip": "Dynamic transition speed in percentage per second when the light level changes",
+  
+  "gammatweaks.configuration.nvAveragingLightRange": "Averaging Light Level Range",
+  "gammatweaks.configuration.nvAveragingLightRange.tooltip": "Range in blocks around the player to average the light level of",
+  
+  "gammatweaks.configuration.nvSkyBrightnessOverride": "Sky Brightness Override",
+  "gammatweaks.configuration.nvSkyBrightnessOverride.tooltip": "Increasing this makes it possible to have a lower dynamic Night Vision when under skylight",
+  
+  "gammatweaks.configuration.nightVision.dimensionPreference": "Dimension Preferences",
+  
+  "gammatweaks.configuration.nvDimensionPreferenceEnabled": "Enable Dimension Preferences",
+  "gammatweaks.configuration.nvDimensionPreferenceEnabled.tooltip": "Automatically apply different night vision values based on the current dimension",
+  
+  "gammatweaks.configuration.nvOverworldPreference": "Overworld Night Vision",
+  "gammatweaks.configuration.nvOverworldPreference.tooltip": "Night Vision percentage to apply when entering the Overworld",
+  
+  "gammatweaks.configuration.nvNetherPreference": "Nether Night Vision",
+  "gammatweaks.configuration.nvNetherPreference.tooltip": "Night Vision percentage to apply when entering the Nether",
+  
+  "gammatweaks.configuration.nvEndPreference": "End Night Vision",
+  "gammatweaks.configuration.nvEndPreference.tooltip": "Night Vision percentage to apply when entering the End",
+  
+  "gammatweaks.configuration.nightVision.limiter": "Limiter Settings",
+  
+  "gammatweaks.configuration.nvLimitCheck": "Enable Limiter",
+  "gammatweaks.configuration.nvLimitCheck.tooltip": "Should the mod enforce the minimum and maximum Night Vision limits",
+  
+  "gammatweaks.configuration.minNightVision": "Minimum Night Vision Limit",
+  "gammatweaks.configuration.minNightVision.tooltip": "Minimum Night Vision percentage the mod will allow if the Limit Check is enabled",
+  
+  "gammatweaks.configuration.maxNightVision": "Maximum Night Vision Limit",
+  "gammatweaks.configuration.maxNightVision.tooltip": "Maximum Night Vision percentage the mod will allow if the Limit Check is enabled",
+  
+  "gammatweaks.configuration.nightVision.hudMessage": "HUD Message Settings",
+  
+  "gammatweaks.configuration.showNvHudMessage": "Show HUD Message",
+  "gammatweaks.configuration.showNvHudMessage.tooltip": "Show a message containing the current Night Vision status when it has changed",
+  
+  "gammatweaks.configuration.nvHudEnabledColor": "HUD Color: Enabled",
+  "gammatweaks.configuration.nvHudEnabledColor.tooltip": "Color for HUD messages when Night Vision is enabled",
+  
+  "gammatweaks.configuration.nvHudDisabledColor": "HUD Color: Disabled",
+  "gammatweaks.configuration.nvHudDisabledColor.tooltip": "Color for HUD messages when Night Vision is disabled",
+  
+  "gammatweaks.configuration.namespacedCommandsEnabled": "Use Namespaced Commands",
+  "gammatweaks.configuration.namespacedCommandsEnabled.tooltip": "Require 'gammatweaks:' prefix for commands (e.g., /gammatweaks:gamma instead of /gamma)",
+  
+  "text.gammatweaks.message.gamma": "Gamma: %s%%",
+  "text.gammatweaks.message.gammaOn": "Gamma: On",
+  "text.gammatweaks.message.gammaOff": "Gamma: Off",
+  "text.gammatweaks.message.gammaDisabled": "Gamma: Disabled",
+  "text.gammatweaks.message.gammaPercentage": "Gamma: %s%%",
+  "text.gammatweaks.message.shaderWarning": "Shader detected - Gamma may not work. Use Night Vision instead",
+  "text.gammatweaks.message.nightVisionOn": "Night Vision: On",
+  "text.gammatweaks.message.nightVisionOff": "Night Vision: Off",
+  "text.gammatweaks.message.nightVisionDisabled": "Night Vision: Disabled",
+  "text.gammatweaks.message.nightVisionPercentage": "Night Vision: %s%%",
+  "text.gammatweaks.message.dynamicGammaOn": "Dynamic Gamma: On",
+  "text.gammatweaks.message.dynamicGammaOff": "Dynamic Gamma: Off",
+  "text.gammatweaks.message.dynamicGammaEnabled": "Dynamic Gamma: Enabled",
+  "text.gammatweaks.message.dynamicGammaDisabled": "Dynamic Gamma: Disabled",
+  "text.gammatweaks.message.dynamicNightVisionOn": "Dynamic Night Vision: On",
+  "text.gammatweaks.message.dynamicNightVisionOff": "Dynamic Night Vision: Off",
+  "text.gammatweaks.message.dynamicNightVisionEnabled": "Dynamic Night Vision: Enabled",
+  "text.gammatweaks.message.dynamicNightVisionDisabled": "Dynamic Night Vision: Disabled",
+  "text.gammatweaks.message.statusEffectGammaOn": "Gamma Status Effect: On",
+  "text.gammatweaks.message.statusEffectGammaOff": "Gamma Status Effect: Off",
+  "text.gammatweaks.message.statusEffectNightVisionOn": "Night Vision Status Effect: On",
+  "text.gammatweaks.message.statusEffectNightVisionOff": "Night Vision Status Effect: Off",
+  "text.gammatweaks.message.transitionGammaOn": "Gamma Smooth Transition: On",
+  "text.gammatweaks.message.transitionGammaOff": "Gamma Smooth Transition: Off",
+  "text.gammatweaks.message.transitionNightVisionOn": "Night Vision Smooth Transition: On",
+  "text.gammatweaks.message.transitionNightVisionOff": "Night Vision Smooth Transition: Off",
+  "text.gammatweaks.message.incompatibleWithDynamicGamma": "Cannot adjust Gamma manually while Dynamic Gamma is enabled",
+  "text.gammatweaks.message.incompatibleWithDynamicNightVision": "Cannot adjust Night Vision manually while Dynamic Night Vision is enabled",
+  
+  "effect.gammatweaks.bright": "Bright",
+  "effect.gammatweaks.dim": "Dim",
+  "effect.gammatweaks.night_vision": "Night Vision",
+  
+  "gammatweaks.configuration.title": "Gamma Tweaks Configuration",
+  "gammatweaks.configuration.section.gammatweaks.client.toml": "Client Configuration",
+  "gammatweaks.configuration.section.gammatweaks.client.toml.title": "Gamma Tweaks Client Settings",
+  
+  "gammatweaks.configuration.gamma.button": "Gamma Settings...",
+  "gammatweaks.configuration.gamma.tooltip": "Configure gamma-related settings",
+  "gammatweaks.configuration.nightVision.button": "Night Vision Settings...",
+  "gammatweaks.configuration.nightVision.tooltip": "Configure night vision-related settings",
+  "gammatweaks.configuration.other.button": "Other Settings...",
+  "gammatweaks.configuration.other.tooltip": "Additional configuration options",
+  
+  "gammatweaks.configuration.transition": "Transition Settings",
+  "gammatweaks.configuration.transition.button": "Transition Settings...",
+  "gammatweaks.configuration.transition.tooltip": "Configure smooth transition behavior",
+  
+  "gammatweaks.configuration.dynamic": "Dynamic Settings",
+  "gammatweaks.configuration.dynamic.button": "Dynamic Settings...",
+  "gammatweaks.configuration.dynamic.tooltip": "Configure dynamic adjustment based on light levels",
+  
+  "gammatweaks.configuration.dimensionPreference": "Dimension Preferences",
+  "gammatweaks.configuration.dimensionPreference.button": "Dimension Preferences...",
+  "gammatweaks.configuration.dimensionPreference.tooltip": "Configure per-dimension preferences",
+  
+  "gammatweaks.configuration.limiter": "Limiter Settings",
+  "gammatweaks.configuration.limiter.button": "Limiter Settings...",
+  "gammatweaks.configuration.limiter.tooltip": "Configure minimum and maximum limits",
+  
+  "gammatweaks.configuration.hudMessage": "HUD Message Settings",
+  "gammatweaks.configuration.hudMessage.button": "HUD Message Settings...",
+  "gammatweaks.configuration.hudMessage.tooltip": "Configure on-screen messages and colors"
+}
