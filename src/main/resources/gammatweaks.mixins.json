@@ -9,7 +9,8 @@
     "MixinLightmapTextureManager",
     "MixinFogRenderer",
     "MixinGameRenderer",
-    "MixinGui",
+    "MixinMobEffectTextureManager",
+    "TextureAtlasHolderAccessor",
     "MixinMinecraft",
     "MixinMobEffectUtil",
     "MixinClientPacketListener"

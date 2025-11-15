@@ -18,7 +18,7 @@ import net.neoforged.neoforge.event.tick.LevelTickEvent;
 import com.github.smallinger.gammatweaks.keybindings.KeyBindings;
 
 @Mod(value = GammaTweaks.MODID, dist = Dist.CLIENT)
-@EventBusSubscriber(modid = GammaTweaks.MODID, value = Dist.CLIENT)
+@EventBusSubscriber(modid = GammaTweaks.MODID, value = Dist.CLIENT, bus = EventBusSubscriber.Bus.MOD)
 public class GammaTweaksClient {
     public GammaTweaksClient(ModContainer container) {
         container.registerExtensionPoint(IConfigScreenFactory.class, ConfigurationScreen::new);
@@ -35,9 +35,12 @@ public class GammaTweaksClient {
         KeyBindings.register(event);
     }
 
-    @SubscribeEvent
-    public static void onRegisterClientCommands(RegisterClientCommandsEvent event) {
-        GammaTweaksCommands.registerCommands(event);
+    @EventBusSubscriber(modid = GammaTweaks.MODID, value = Dist.CLIENT, bus = EventBusSubscriber.Bus.GAME)
+    public static class ClientGameEvents {
+        @SubscribeEvent
+        public static void onRegisterClientCommands(RegisterClientCommandsEvent event) {
+            GammaTweaksCommands.registerCommands(event);
+        }
     }
 
     public void onLevelTick(LevelTickEvent.Pre event) {

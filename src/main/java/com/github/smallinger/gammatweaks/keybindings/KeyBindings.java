@@ -4,7 +4,6 @@ import com.github.smallinger.gammatweaks.manager.GammaManager;
 import com.github.smallinger.gammatweaks.manager.NightVisionManager;
 import com.mojang.blaze3d.platform.InputConstants;
 import net.minecraft.client.KeyMapping;
-import net.minecraft.resources.ResourceLocation;
 import net.neoforged.neoforge.client.event.RegisterKeyMappingsEvent;
 import net.neoforged.neoforge.client.settings.KeyConflictContext;
 import net.neoforged.neoforge.client.settings.KeyModifier;
@@ -14,12 +13,8 @@ import static com.github.smallinger.gammatweaks.GammaTweaks.MODID;
 
 public class KeyBindings {
     
-    private static final KeyMapping.Category GAMMA_CATEGORY = new KeyMapping.Category(
-            ResourceLocation.fromNamespaceAndPath(MODID, "gamma")
-    );
-    private static final KeyMapping.Category NIGHT_VISION_CATEGORY = new KeyMapping.Category(
-            ResourceLocation.fromNamespaceAndPath(MODID, "nightvision")
-    );
+        private static final String GAMMA_CATEGORY = "key.categories." + MODID + ".gamma";
+        private static final String NIGHT_VISION_CATEGORY = "key.categories." + MODID + ".nightvision";
 
     public static KeyMapping GAMMA_TOGGLE;
     public static KeyMapping GAMMA_INCREASE;

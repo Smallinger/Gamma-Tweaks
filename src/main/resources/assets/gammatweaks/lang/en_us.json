@@ -1,5 +1,7 @@
 {
   "key.categories.gammatweaks": "Gamma Tweaks",
+  "key.categories.gammatweaks.gamma": "Gamma Tweaks - Gamma",
+  "key.categories.gammatweaks.nightvision": "Gamma Tweaks - Night Vision",
   
   "key.gammatweaks.gammaToggle": "Toggle Gamma",
   "key.gammatweaks.increaseGamma": "Increase Gamma",

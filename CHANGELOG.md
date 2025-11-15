@@ -5,6 +5,25 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.21.1-1.0.0] - 2025-11-15
+
+### Changed
+- Backported Gamma Tweaks to Minecraft **1.21.1** using NeoForge **21.1.15**.
+- Updated Parchment mappings to `v2024.11.17` for the new game version.
+- Refreshed documentation and metadata for the 1.21.1 line.
+
+### Fixed
+- Registered client commands on the correct **GAME** event bus so `/gamma` and `/nightvision` load without startup crashes.
+- Added a `TextureAtlasHolder` accessor plus a retargeted `MobEffectTextureManager` mixin to keep the custom gamma/night-vision icons rendering in 1.21.1.
+- Updated the `FogRenderer` redirect to `setupColor`, restoring the optional **Brighten Fog Color** feature when Night Vision is toggled via Gamma Tweaks.
+
+#### Compatibility
+- **Minecraft**: 1.21.1
+- **NeoForge**: 21.1.15+
+- **Java**: 21
+
+---
+
 ## [1.21.10-1.0.0] - 2025-11-14
 
 ### Initial Release
@@ -50,4 +69,5 @@ This is the first official release of Gamma Tweaks for NeoForge 1.21.10!
 
 ---
 
+[1.21.1-1.0.0]: https://github.com/Smallinger/Gamma-Tweaks/releases/tag/v1.21.1-1.0.0
 [1.21.10-1.0.0]: https://github.com/Smallinger/Gamma-Tweaks/releases/tag/v1.21.10-1.0.0

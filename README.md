@@ -1,10 +1,10 @@
-# Gamma Tweaks Port for NeoForge 1.21.10
+# Gamma Tweaks Port for NeoForge 1.21.1
 
 ![Gamma Tweaks Icon](.github/media/logo.png)
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Minecraft](https://img.shields.io/badge/minecraft-1.21.10-green.svg)
-![NeoForge](https://img.shields.io/badge/neoforge-21.10.47--beta+-orange.svg)
+![Minecraft](https://img.shields.io/badge/minecraft-1.21.1-green.svg)
+![NeoForge](https://img.shields.io/badge/neoforge-21.1.15-orange.svg)
 ![Java](https://img.shields.io/badge/java-21-red.svg)
 
 A client-side Minecraft mod that provides advanced gamma (brightness) and night vision control beyond vanilla limits.
@@ -36,7 +36,7 @@ A client-side Minecraft mod that provides advanced gamma (brightness) and night 
 
 ## 📦 Installation
 
-1. Install [NeoForge](https://neoforged.net/) 21.10.47-beta or higher for Minecraft 1.21.10
+1. Install [NeoForge](https://neoforged.net/) 21.1.15 or higher for Minecraft 1.21.1
 2. Download the latest release from [Releases](https://github.com/smallinger/gamma-tweaks/releases)
 3. Place the `.jar` file in your `mods` folder
 4. Launch Minecraft and enjoy!
